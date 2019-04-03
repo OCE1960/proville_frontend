@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'mail.oce.com.ng'),
+    'host' => env('MAIL_HOST'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', '	oce@oce.com.ng'),
-        'name' => env('MAIL_FROM_NAME', 'Okeke Christian Emeka'),
+        'address' => env('MAIL_FROM_ADDRESS'),
+        'name' => env('MAIL_FROM_NAME'),
     ],
 
     /*
@@ -86,7 +86,7 @@ return [
 
     'username' => env('MAIL_USERNAME','oce@oce.com.ng'),
 
-    'password' => env('MAIL_PASSWORD','Christian1960'),
+    'password' => env('MAIL_PASSWORD','****************'),
 
     /*
     |--------------------------------------------------------------------------
